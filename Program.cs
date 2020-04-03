@@ -20,7 +20,6 @@ namespace learningC
                 Console.WriteLine("\t1. - Phrase checker.");
                 Console.WriteLine("\t2. - Calculate your age in dog years.");
                 Console.WriteLine("\t3. - What kind of cat are you?");
-                Console.WriteLine("\t4. - Fuck around section.");
                 Console.WriteLine("\n");
                 Console.Write("Your option: ");
                 switch (Console.ReadLine())
@@ -36,9 +35,6 @@ namespace learningC
                         break;
                     case "3": 
                         WhichCatAreYou.CatCalculator();
-                        break;
-                    case "4":
-                        Planet.HiThere();
                         break;
                     default:
                         Console.WriteLine("Whoops! That does not exist." + "\n");
