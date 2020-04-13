@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaeserCipher.cs" />
     <Compile Include="DogYearCalculator.cs" />
+    <Compile Include="ExquisiteCorpse.cs" />
+    <Compile Include="MethodBodiedDefinitions.cs" />
     <Compile Include="PhraseChecker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

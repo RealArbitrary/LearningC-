@@ -8,7 +8,7 @@ namespace learningC
 {
     class DogYearCalculator : Program
     {
-        public static void YearCalculator()
+        public static void CallMe()
         {
             Console.WriteLine("\n");
             Console.Write("Enter your age to find out what it will be in dog years: ");

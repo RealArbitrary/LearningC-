@@ -8,7 +8,7 @@ namespace learningC
 {
     class WhichCatAreYou : Program
     {
-        public static void CatCalculator()
+        public static void CallMe()
         {
             Console.WriteLine("\n");
             Console.WriteLine("Choose one of these fast foods and that will determine what kind of cat you are." + "\n");

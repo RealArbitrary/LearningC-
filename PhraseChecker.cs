@@ -9,7 +9,7 @@ namespace learningC
     public class PhraseChecker : Program
     {
 
-        public static void CheckPhrase()
+        public static void CallMe()
         {
             Console.WriteLine("\n");
             Console.WriteLine("This option lets you enter any phrase. Then the system will tell you if your phrase contains an uppercase or not.\n");
