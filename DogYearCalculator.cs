@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//A cool CodeAcademy application
+
 namespace learningC
 {
     class DogYearCalculator : Program

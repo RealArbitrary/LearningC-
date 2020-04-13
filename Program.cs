@@ -7,6 +7,7 @@ namespace learningC
 
     public class Program
     {
+        //My "UI"
 
         static void Main(string[] args)
         {

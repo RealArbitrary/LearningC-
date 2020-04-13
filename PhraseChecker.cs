@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//A cool CodeAcademy Application
+
 namespace learningC
 {
     public class PhraseChecker : Program

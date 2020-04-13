@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Credit Codeacademy for the idea and some of the base code
+//A cool CodeAcademy application
 
 namespace learningC
 {
