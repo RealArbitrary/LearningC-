@@ -15,13 +15,12 @@ namespace learningC
             bool exquisiteCorpse = true;
             while (exquisiteCorpse == true)
             {
-                Console.WriteLine("\n");
-                Console.WriteLine("Welcome to Exquisite Corpse\r");
+                Console.WriteLine("\nExquisite Corpse\r");
                 Console.WriteLine("---------------------------" + "\n");
                 Console.WriteLine("\t0. Back");
                 Console.WriteLine("\t1. Build your own creature!");
                 Console.WriteLine("\t2. Let the program create a random creature!");
-                
+                Console.Write("\nYour option: ");
 
                 switch (Console.ReadLine())
                 {

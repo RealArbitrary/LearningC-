@@ -8,26 +8,45 @@ namespace learningC
 {
     public class PhraseChecker : Program
     {
-
         public static void CallMe()
         {
-            Console.WriteLine("\n");
-            Console.WriteLine("This option lets you enter any phrase. Then the system will tell you if your phrase contains an uppercase or not.\n");
-            Console.WriteLine("Please enter your phrase to continue");
-            string phrase = Console.ReadLine();
-            bool hasUpper = phrase.Any(char.IsUpper);
-            string firstRes = $"Your phrase contains an uppercase letter.";
-            string secondRes = "Your phrase does not contain an uppercase letter.";
-            if (hasUpper == true)
-            {
-                Console.WriteLine(firstRes + "\n");
-            }
-            else
-            {
-                Console.WriteLine(secondRes + "\n");
-            }
+            bool isPhraseCheckerRunning = true;
 
+            while (isPhraseCheckerRunning == true)
+            {
+                Console.WriteLine($"\nPhrase Checker\r");
+                Console.WriteLine("---------------------------" + "\n");
+                Console.WriteLine("This option determines wheter or not your input contains uppercase characters!\n");
+                Console.WriteLine("\t0. - Back");
+                Console.WriteLine("\t1. - Play Phrase Checker");
+                Console.Write("\nYour option: ");
 
+                switch (Console.ReadLine())
+                {
+                    case "0":
+                        isPhraseCheckerRunning = false;
+                        break;
+                    case "1":
+                        Console.Write("\nPlease enter your phrase: ");
+                        string phrase = Console.ReadLine();
+                        bool hasUpper = phrase.Any(char.IsUpper);
+                        string firstRes = "\nYour phrase contains an uppercase letter! :-O";
+                        string secondRes = "\nYour phrase does not contain any uppercase characters :-)";
+                        if (hasUpper == true)
+                        {
+                            Console.WriteLine(firstRes + "\n");
+                            continue;
+                        }
+                        else
+                        {
+                            Console.WriteLine(secondRes + "\n");
+                            continue;
+                        }
+                    default:
+                        Console.WriteLine("\nPlease select one of the menu options.\n");
+                        break;
+                }
+            }
         }
     }
 }

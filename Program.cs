@@ -18,13 +18,13 @@ namespace learningC
             {
                 Console.WriteLine($"\nWelcome {userName} to De Wet's fun C# examples\r");
                 Console.WriteLine("-----------------------------------" + "\n");
+                Console.WriteLine("Please select one of the following:\n");
                 Console.WriteLine("\t0. - Exit");
                 Console.WriteLine("\t1. - Phrase checker.");
-                Console.WriteLine("\t2. - Calculate your age in dog years.");
-                Console.WriteLine("\t3. - What kind of cat are you?");
+                Console.WriteLine("\t2. - Dog Year Calculator");
+                Console.WriteLine("\t3. - Kitten Cuisine");
                 Console.WriteLine("\t4. - Exquisite Corpse");
-                Console.WriteLine("\t5. - Method Bodied Defitions");
-                Console.WriteLine("\t6. - Caeser Cipher");
+                Console.WriteLine("\t5. - Caeser Cipher");
                 Console.WriteLine("\n");
                 Console.Write("Your option: ");
                 switch (Console.ReadLine())
@@ -45,9 +45,6 @@ namespace learningC
                         ExquisiteCorpse.CallMe();
                         break;
                     case "5":
-                        MethodBodiedDefinitions.CallMe();
-                        break;
-                    case "6":
                         CaeserCipher.CallMe();
                         break;
                     default:
