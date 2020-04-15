@@ -26,6 +26,7 @@ namespace learningC
                 Console.WriteLine("\t3. - Kitten Cuisine");
                 Console.WriteLine("\t4. - Exquisite Corpse");
                 Console.WriteLine("\t5. - Caeser Cipher");
+                Console.WriteLine("\t6. - True or False");
                 Console.WriteLine("\n");
                 Console.Write("Your option: ");
                 switch (Console.ReadLine())
@@ -47,6 +48,9 @@ namespace learningC
                         break;
                     case "5":
                         CaeserCipher.CallMe();
+                        break;
+                    case "6":
+                        TrueOrFalse.CallMe();
                         break;
                     default:
                         Console.WriteLine("Whoops! That does not exist." + "\n");
