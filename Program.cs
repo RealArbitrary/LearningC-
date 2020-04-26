@@ -21,12 +21,13 @@ namespace learningC
                 Console.WriteLine("-----------------------------------" + "\n");
                 Console.WriteLine("Please select one of the following:\n");
                 Console.WriteLine("\t0. - Exit");
-                Console.WriteLine("\t1. - Phrase checker.");
+                Console.WriteLine("\t1. - Phrase checker");
                 Console.WriteLine("\t2. - Dog Year Calculator");
                 Console.WriteLine("\t3. - Kitten Cuisine");
                 Console.WriteLine("\t4. - Exquisite Corpse");
                 Console.WriteLine("\t5. - Caeser Cipher");
                 Console.WriteLine("\t6. - True or False");
+                Console.WriteLine("\t7. - OOYA");
                 Console.WriteLine("\n");
                 Console.Write("Your option: ");
                 switch (Console.ReadLine())
@@ -51,6 +52,9 @@ namespace learningC
                         break;
                     case "6":
                         TrueOrFalse.CallMe();
+                        break;
+                    case "7":
+                        Profile.CallMe();
                         break;
                     default:
                         Console.WriteLine("Whoops! That does not exist." + "\n");
