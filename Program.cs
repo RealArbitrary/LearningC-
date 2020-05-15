@@ -11,6 +11,8 @@ namespace learningC
 
         static void Main(string[] args)
         {
+
+            #region
             bool endApp = false;
             Console.Write("To get started, please enter your name: ");
             string userName = Console.ReadLine();
@@ -63,7 +65,8 @@ namespace learningC
                 }
 
             }
-            
+            #endregion
+
         }
 
     }

@@ -28,27 +28,13 @@ namespace learningC
                         exquisiteCorpse = false;
                         break;
                     case "1":
-                        //Console.WriteLine("Select which head your creature must have:\n");
-                        //Console.WriteLine("\t1. Bug Head");
-                        //Console.WriteLine("\t2. Ghost Head");
-                        //Console.WriteLine("\t3. Monster Head");
-                        //Console.WriteLine("\n");
-                        //string userHead = Console.ReadLine();
-                        //Console.WriteLine($"You chose {userHead}");
-                        //Console.WriteLine("Select which body your creature must have:\n");
-                        //Console.WriteLine("\t1. Bug Body");
-                        //Console.WriteLine("\t2. Ghost Body");
-                        //Console.WriteLine("\t3. Monster Body");
-                        //Console.WriteLine("\n");
-                        //string userBody = Console.ReadLine();
-                        //Console.WriteLine("Select which feet your creature must have:\n");
-                        //Console.WriteLine("\t1. Bug Feet");
-                        //Console.WriteLine("\t2. Ghost Feet");
-                        //Console.WriteLine("\t3. Monster Feet");
-                        //Console.WriteLine("\n");
-                        //string userFeet = Console.ReadLine();
-                        //BuildACreature(userHead, userBody, userFeet);
-                        BuildACreature("ghost", "monster", "bug");
+                        HeadInstruction();
+                        int userHead = Convert.ToInt32(Console.ReadLine());
+                        BodyInstruction();
+                        int userBody = Convert.ToInt32(Console.ReadLine());
+                        FeetInstruction();
+                        int userFeet = Convert.ToInt32(Console.ReadLine());
+                        SwitchCase(userHead, userBody, userFeet);
                         break;
                     case "2":
                         RandomMode();
@@ -59,16 +45,35 @@ namespace learningC
             }
             
         }
-
-
-
-        static void BuildACreature(string head, string body, string feet)
+        //Console parameters for user
+        #region
+        static void HeadInstruction()
         {
-            int headNum = TranslateToNumber("head");
-            int bodyNum = TranslateToNumber("body");
-            int feetNum = TranslateToNumber("feet");
-            SwitchCase(headNum, bodyNum, feetNum);
+            Console.WriteLine("Select which head your creature must have:\n");
+            Console.WriteLine("\t1. Bug Head");
+            Console.WriteLine("\t2. Ghost Head");
+            Console.WriteLine("\t3. Monster Head");
+            Console.WriteLine("\n");
         }
+
+        static void BodyInstruction()
+        {
+            Console.WriteLine("Select which body your creature must have:\n");
+            Console.WriteLine("\t1. Bug Body");
+            Console.WriteLine("\t2. Ghost Body");
+            Console.WriteLine("\t3. Monster Body");
+            Console.WriteLine("\n");
+        }
+
+        static void FeetInstruction()
+        {
+            Console.WriteLine("Select which feet your creature must have:\n");
+            Console.WriteLine("\t1. Bug Feet");
+            Console.WriteLine("\t2. Ghost Feet");
+            Console.WriteLine("\t3. Monster Feet");
+            Console.WriteLine("\n");
+        }
+        #endregion
 
         static void RandomMode()
         {
@@ -132,24 +137,6 @@ namespace learningC
 
         }
 
-        static int TranslateToNumber(string creature)
-        {
-            switch (creature)
-            {
-                case "bug":
-                    return 1;
-                case "ghost":
-                    return 2;
-                case "monster":
-                    return 3;
-                default:
-                    return 1;
-            }
-        }
-
-        
-
-
         #region
         static void BugHead()
         {
@@ -212,6 +199,35 @@ namespace learningC
             Console.WriteLine("   /   |   \\");
             Console.WriteLine("   \"\"\"\" \"\"\"\"");
         }
+        #endregion
+
+        //Cannot seem to get this working.. TODO: Try and implement this at some point.
+        //This is code refactoring that is suppose to convert user selection to string.
+        //But when I run it and select 1, 2, 3 - or any combination my TranslateToNumber
+        //keeps returning default of 1.
+        #region
+        //static void BuildACreature(string head, string body, string feet)
+        //{
+        //    int headNum = TranslateToNumber("head");
+        //    int bodyNum = TranslateToNumber("body");
+        //    int feetNum = TranslateToNumber("feet");
+        //    SwitchCase(headNum, bodyNum, feetNum);
+        //}
+
+        //static int TranslateToNumber(string creature)
+        //{
+        //    switch (creature)
+        //    {
+        //        case "bug":
+        //            return 1;
+        //        case "ghost":
+        //            return 2;
+        //        case "monster":
+        //            return 3;
+        //        default:
+        //            return 1;
+        //    }
+        //}
         #endregion
     }
 }
