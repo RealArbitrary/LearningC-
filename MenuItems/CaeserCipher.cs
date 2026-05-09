@@ -1,7 +1,6 @@
-﻿using System;
-namespace learningC
+﻿namespace MenuItems
 {
-    class CaeserCipher
+    public class CaeserCipher
     {
         public static void CallMe()
         {

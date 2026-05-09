@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace learningC
+﻿namespace MenuItems
 {
-    class ExquisiteCorpse
+    public class ExquisiteCorpse
     {
         public static void CallMe()
         {

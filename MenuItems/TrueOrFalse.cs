@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace learningC
+﻿namespace MenuItems
 {
-    class TrueOrFalse
+    public class TrueOrFalse
     {
         public static void CallMe()
         {

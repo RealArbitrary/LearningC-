@@ -43,15 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CaeserCipher.cs" />
-    <Compile Include="DogYearCalculator.cs" />
-    <Compile Include="ExquisiteCorpse.cs" />
-    <Compile Include="PhraseChecker.cs" />
-    <Compile Include="Profile.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="KittenCuisine.cs" />
-    <Compile Include="TrueOrFalse.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MenuItems\MenuItems.csproj">
+      <Project>{1d5e0b02-fe16-48d5-8158-89bbd1c47489}</Project>
+      <Name>MenuItems</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
