@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace learningC
+﻿namespace MenuItems
 {
-    class WhichCatAreYou
+    public class WhichCatAreYou
     {
         public static void CallMe()
         {

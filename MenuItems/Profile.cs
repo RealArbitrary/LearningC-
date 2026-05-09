@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace learningC
+﻿namespace MenuItems
 {
-    public class Profile : Program
+    public class Profile
     {
 
         public static void CallMe()

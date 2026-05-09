@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace learningC
+﻿namespace MenuItems
 {
-    class DogYearCalculator
+    public class DogYearCalculator
     {
         public static void CallMe()
         {

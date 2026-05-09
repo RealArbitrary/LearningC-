@@ -1,6 +1,6 @@
-﻿using System;
+﻿using MenuItems;
 
-namespace learningC
+namespace Menu
 {
     public class Program
     {
