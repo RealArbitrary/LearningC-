@@ -12,3 +12,9 @@ C:\Users\dewet\source\reposJS\LearningC-\obj\Debug\LearningCWithDeWet.csproj.Ass
 C:\Users\dewet\source\reposJS\LearningC-\obj\Debug\LearningCWithDeWet.csproj.CoreCompileInputs.cache
 C:\Users\dewet\source\reposJS\LearningC-\obj\Debug\MyConsoleApp.exe
 C:\Users\dewet\source\reposJS\LearningC-\obj\Debug\MyConsoleApp.pdb
+C:\Users\dewet\source\repos\LearningC-\bin\Debug\MyConsoleApp.exe
+C:\Users\dewet\source\repos\LearningC-\bin\Debug\MyConsoleApp.pdb
+C:\Users\dewet\source\repos\LearningC-\obj\Debug\LearningCWithDeWet.csproj.AssemblyReference.cache
+C:\Users\dewet\source\repos\LearningC-\obj\Debug\LearningCWithDeWet.csproj.CoreCompileInputs.cache
+C:\Users\dewet\source\repos\LearningC-\obj\Debug\MyConsoleApp.exe
+C:\Users\dewet\source\repos\LearningC-\obj\Debug\MyConsoleApp.pdb
