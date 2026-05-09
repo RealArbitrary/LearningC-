@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\dewet\\source\\repos\\LearningC-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3E8B8AE-94C9-4DB1-A7D4-B99C68B83174}|Menu\\Menu.csproj|c:\\users\\dewet\\source\\repos\\learningc-\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3E8B8AE-94C9-4DB1-A7D4-B99C68B83174}|Menu\\Menu.csproj|solutionrelative:menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3E8B8AE-94C9-4DB1-A7D4-B99C68B83174}|Menu\\Menu.csproj|c:\\users\\dewet\\source\\repos\\learningc-\\menu\\menu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E3E8B8AE-94C9-4DB1-A7D4-B99C68B83174}|Menu\\Menu.csproj|solutionrelative:menu\\menu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D5E0B02-FE16-48D5-8158-89BBD1C47489}|MenuItems\\MenuItems.csproj|c:\\users\\dewet\\source\\repos\\learningc-\\menuitems\\trueorfalse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D5E0B02-FE16-48D5-8158-89BBD1C47489}|MenuItems\\MenuItems.csproj|solutionrelative:menuitems\\trueorfalse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,6 +29,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{1D5E0B02-FE16-48D5-8158-89BBD1C47489}|MenuItems\\MenuItems.csproj|c:\\users\\dewet\\source\\repos\\learningc-\\menuitems\\caesercipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D5E0B02-FE16-48D5-8158-89BBD1C47489}|MenuItems\\MenuItems.csproj|solutionrelative:menuitems\\caesercipher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E8B8AE-94C9-4DB1-A7D4-B99C68B83174}|Menu\\Menu.csproj|c:\\users\\dewet\\source\\repos\\learningc-\\menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3E8B8AE-94C9-4DB1-A7D4-B99C68B83174}|Menu\\Menu.csproj|solutionrelative:menu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3E8B8AE-94C9-4DB1-A7D4-B99C68B83174}|Menu\\Menu.csproj|c:\\users\\dewet\\source\\repos\\learningc-\\menu\\menu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3E8B8AE-94C9-4DB1-A7D4-B99C68B83174}|Menu\\Menu.csproj|solutionrelative:menu\\menu.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Menu",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\Menu\\Menu.csproj",
               "RelativeDocumentMoniker": "Menu\\Menu.csproj",
@@ -79,33 +79,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\Menu\\Program.cs",
               "RelativeDocumentMoniker": "Menu\\Program.cs",
               "ToolTip": "C:\\Users\\dewet\\source\\repos\\LearningC-\\Menu\\Program.cs",
               "RelativeToolTip": "Menu\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAApwC8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T18:43:30.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TrueOrFalse.cs",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\TrueOrFalse.cs",
               "RelativeDocumentMoniker": "MenuItems\\TrueOrFalse.cs",
               "ToolTip": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\TrueOrFalse.cs",
               "RelativeToolTip": "MenuItems\\TrueOrFalse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T18:41:55.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Profile.cs",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\Profile.cs",
               "RelativeDocumentMoniker": "MenuItems\\Profile.cs",
@@ -118,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PhraseChecker.cs",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\PhraseChecker.cs",
               "RelativeDocumentMoniker": "MenuItems\\PhraseChecker.cs",
@@ -131,52 +131,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "KittenCuisine.cs",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\KittenCuisine.cs",
               "RelativeDocumentMoniker": "MenuItems\\KittenCuisine.cs",
               "ToolTip": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\KittenCuisine.cs",
               "RelativeToolTip": "MenuItems\\KittenCuisine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T18:41:41.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ExquisiteCorpse.cs",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\ExquisiteCorpse.cs",
               "RelativeDocumentMoniker": "MenuItems\\ExquisiteCorpse.cs",
               "ToolTip": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\ExquisiteCorpse.cs",
               "RelativeToolTip": "MenuItems\\ExquisiteCorpse.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAIwIIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T18:41:28.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "DogYearCalculator.cs",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\DogYearCalculator.cs",
               "RelativeDocumentMoniker": "MenuItems\\DogYearCalculator.cs",
               "ToolTip": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\DogYearCalculator.cs",
               "RelativeToolTip": "MenuItems\\DogYearCalculator.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T18:41:21.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "CaeserCipher.cs",
               "DocumentMoniker": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\CaeserCipher.cs",
               "RelativeDocumentMoniker": "MenuItems\\CaeserCipher.cs",
               "ToolTip": "C:\\Users\\dewet\\source\\repos\\LearningC-\\MenuItems\\CaeserCipher.cs",
               "RelativeToolTip": "MenuItems\\CaeserCipher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-09T18:40:42.966Z",
               "EditorCaption": ""
