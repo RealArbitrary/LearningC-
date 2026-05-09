@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace learningC
 {
-    class CaeserCipher : Program
+    class CaeserCipher
     {
         public static void CallMe()
         {
@@ -17,7 +12,6 @@ namespace learningC
                 Console.WriteLine("-----------------------------------" + "\n");
                 Console.WriteLine("\t0. - Back");
                 Console.WriteLine("\t1. - Caeser Cipher Encoding\n");
-                //Testing first commit
 
                 switch (Console.ReadLine())
                 {
@@ -49,12 +43,7 @@ namespace learningC
                     default:
                         break;
                 }
-                
-
             }
-            
-
         }
-
     }
 }

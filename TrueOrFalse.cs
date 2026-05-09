@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace learningC
 {
-    class TrueOrFalse : Program
+    class TrueOrFalse
     {
         public static void CallMe()
         {
@@ -56,14 +52,6 @@ namespace learningC
                 askingIndex++;
 
             }
-
-            //Test responses
-            #region
-            //foreach (bool response in responses)
-            //{
-            //    Console.WriteLine(response);
-            //}
-            #endregion
 
             int scoringIndex = 0;
             int score = 0;
