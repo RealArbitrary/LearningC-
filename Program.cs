@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Runtime.Serialization;
-using System.Linq;
 
 namespace learningC
 {
-
     public class Program
     {
-        //My "UI"
-        //From here I call my inhereted classes. These classes are small projects that demonstrate the different uses of C#.
 
         static void Main(string[] args)
         {
-            //A region to minize, try it, it looks cooler when there is less!
-            #region
             bool endApp = false;
             Console.Write("To get started, please enter your name: ");
             string userName = Console.ReadLine();
@@ -74,12 +67,7 @@ namespace learningC
                         break;
 
                 }
-
             }
-            #endregion
-
         }
-
     }
-
 }

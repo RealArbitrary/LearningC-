@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="CaeserCipher.cs" />
     <Compile Include="DogYearCalculator.cs" />
-    <Compile Include="EmptyWorkSpaceForTesting.cs" />
     <Compile Include="ExquisiteCorpse.cs" />
     <Compile Include="PhraseChecker.cs" />
     <Compile Include="Profile.cs" />

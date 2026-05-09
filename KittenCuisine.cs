@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace learningC
 {
-    class WhichCatAreYou : Program
+    class WhichCatAreYou
     {
         public static void CallMe()
         {

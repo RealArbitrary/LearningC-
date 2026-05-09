@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace learningC
 {
-    class ExquisiteCorpse : Program
+    class ExquisiteCorpse
     {
         public static void CallMe()
         {
@@ -135,7 +131,6 @@ namespace learningC
 
         }
 
-        #region
         static void BugHead()
         {
             Console.WriteLine("     /   \\");
@@ -197,35 +192,5 @@ namespace learningC
             Console.WriteLine("   /   |   \\");
             Console.WriteLine("   \"\"\"\" \"\"\"\"");
         }
-        #endregion
-
-        //Cannot seem to get this working.. TODO: Try and implement this at some point.
-        //This is code refactoring that is suppose to convert user selection to string.
-        //But when I run it and select 1, 2, 3 - or any combination my TranslateToNumber
-        //keeps returning default of 1.
-        #region
-        //static void BuildACreature(string head, string body, string feet)
-        //{
-        //    int headNum = TranslateToNumber("head");
-        //    int bodyNum = TranslateToNumber("body");
-        //    int feetNum = TranslateToNumber("feet");
-        //    SwitchCase(headNum, bodyNum, feetNum);
-        //}
-
-        //static int TranslateToNumber(string creature)
-        //{
-        //    switch (creature)
-        //    {
-        //        case "bug":
-        //            return 1;
-        //        case "ghost":
-        //            return 2;
-        //        case "monster":
-        //            return 3;
-        //        default:
-        //            return 1;
-        //    }
-        //}
-        #endregion
     }
 }
